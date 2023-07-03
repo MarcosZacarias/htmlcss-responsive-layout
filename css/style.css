@@ -145,6 +145,18 @@
   text-align: center;
 }
 
+/* FOOTER */
+
+#footer {
+  padding: 1rem 0;
+  background-color: #333333;
+  color: white;
+}
+
+#footer .container {
+  text-align: center;
+}
+
 /* ***************************
 ***     RESPONSIVE      ***
 *************************** 

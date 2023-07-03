@@ -112,6 +112,21 @@
   margin: 1rem 0;
 }
 
+/* SECTION BENEFITS */
+
+#benefits {
+  background-color: #9792e4;
+}
+
+#benefits .col {
+  text-align: center;
+}
+
+#benefits .card {
+  background-color: white;
+  text-align: start;
+}
+
 /* ***************************
 ***     RESPONSIVE      ***
 *************************** 

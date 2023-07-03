@@ -139,6 +139,8 @@
 
 #started {
   padding: 1rem 0;
+  background-color: #9792e4;
+  color: white;
 }
 
 #started .container {

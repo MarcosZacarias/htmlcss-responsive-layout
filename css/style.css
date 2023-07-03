@@ -182,6 +182,16 @@
   #benefits .card {
     margin: 0;
   }
+
+  /* Section About-Us */
+  #about-us .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  #about-us .col {
+    width: calc(100% / 2);
+  }
 }
 
 /* DESKTOP */
@@ -229,5 +239,19 @@
   /* Section Benefits */
   #benefits .col-card-benf {
     width: calc(100% / 3);
+  }
+
+  /* Section About-Us */
+  #about-us .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  #about-us .col {
+    width: calc(100% / 3);
+  }
+
+  #about-us .col:first-child {
+    width: calc(100% / 3 * 2);
   }
 }

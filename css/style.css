@@ -135,6 +135,16 @@
   padding: 1rem 0;
 }
 
+/* SECTION STARTED */
+
+#started {
+  padding: 1rem 0;
+}
+
+#started .container {
+  text-align: center;
+}
+
 /* ***************************
 ***     RESPONSIVE      ***
 *************************** 

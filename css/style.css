@@ -79,6 +79,15 @@ a {
   justify-content: space-between;
 }
 
+#header .logo {
+  display: flex;
+  align-items: center;
+}
+
+#header .burger-menu {
+  font-size: 1.6rem;
+}
+
 #header .complete-menu {
   display: none;
 }
@@ -88,8 +97,15 @@ a {
   gap: 4rem;
 }
 
-#header .complete-menu > ul li > a {
+#header a {
   color: white;
+}
+
+#header .btn-menu {
+  border-radius: 15px;
+  background-color: white;
+  color: #333333;
+  padding: 0.5rem 1rem;
 }
 
 /* MAIN */

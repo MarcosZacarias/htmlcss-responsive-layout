@@ -31,14 +31,14 @@ body {
    *************************** 
 */
 
-.border {
+/* .border {
   border: 1px dashed red;
   min-height: 50px;
 }
 
 .box-content {
   line-height: 80px;
-}
+} */
 
 /* ***************************
    ***       UTILITY       ***
@@ -131,6 +131,19 @@ body {
 
 #intro .card > .row {
   margin: 0;
+}
+
+#intro .card-section > * {
+  padding-bottom: 1rem;
+}
+
+#intro .btn-intro {
+  border-radius: 15px;
+  background-color: #0084fd;
+  color: white;
+  font-size: 1.4rem;
+  padding: 0.5rem 3rem;
+  width: 60%;
 }
 
 /* SECTION STRATEGIC */

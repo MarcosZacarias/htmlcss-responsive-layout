@@ -149,6 +149,11 @@
 
 @media screen and (min-width: 992px) {
   /* MAIN */
+
+  .container {
+    max-width: 1180px;
+  }
+
   /* Intro */
   #intro .container > .row {
     display: flex;

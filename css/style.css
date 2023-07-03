@@ -116,6 +116,7 @@
 
 #benefits {
   background-color: #9792e4;
+  padding: 1rem 0;
 }
 
 #benefits .col {
@@ -125,6 +126,7 @@
 #benefits .card {
   background-color: white;
   text-align: start;
+  margin: 2rem 0;
 }
 
 /* ***************************
@@ -157,6 +159,22 @@
   #reviews .card .row .col:last-child {
     flex-grow: 2;
     text-align: start;
+  }
+
+  /* Section Benefits */
+
+  #benefits .row-card-benf {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #benefits .col-card-benf {
+    width: 50%;
+    padding: 1rem;
+  }
+
+  #benefits .card {
+    margin: 0;
   }
 }
 
@@ -200,5 +218,10 @@
 
   #strategic .row > .col {
     width: 50%;
+  }
+
+  /* Section Benefits */
+  #benefits .col-card-benf {
+    width: calc(100% / 3);
   }
 }

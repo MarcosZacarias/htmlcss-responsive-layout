@@ -87,6 +87,10 @@ a {
   gap: 4rem;
 }
 
+#header .complete-menu > ul li > a {
+  color: white;
+}
+
 /* MAIN */
 
 /* INTRO */

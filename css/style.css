@@ -69,6 +69,7 @@ a {
 /* HEADER */
 #header {
   background-color: #0084fd;
+  color: white;
   height: 80px;
   line-height: 80px;
 }

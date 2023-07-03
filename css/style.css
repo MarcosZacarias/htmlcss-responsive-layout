@@ -24,6 +24,17 @@
 }
 
 /* ***************************
+   ***       UTILITY       ***
+   *************************** 
+*/
+
+.card {
+  border-radius: 25px;
+  padding: 1rem;
+  height: 100%;
+}
+
+/* ***************************
    ***       LAYOUT        ***
    *************************** 
 */
@@ -69,8 +80,6 @@
 
 #intro .card {
   background-color: red;
-  padding: 1rem;
-  height: 100%;
 }
 
 #intro .card > .row {
@@ -85,10 +94,7 @@
 
 #strategic .card {
   background-color: white;
-  padding: 1rem;
-  height: 100%;
   margin: 1rem 0;
-  border-radius: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;

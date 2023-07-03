@@ -70,6 +70,15 @@
   justify-content: space-between;
 }
 
+#header .complete-menu {
+  display: none;
+}
+
+#header .complete-menu > ul {
+  display: flex;
+  gap: 4rem;
+}
+
 /* MAIN */
 
 /* INTRO */
@@ -221,6 +230,15 @@
 /* DESKTOP */
 
 @media screen and (min-width: 992px) {
+  /* HEADER */
+  #header .complete-menu {
+    display: block;
+  }
+
+  #header .burger-menu {
+    display: none;
+  }
+
   /* MAIN */
 
   .container {

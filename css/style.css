@@ -135,7 +135,7 @@ img {
   padding-bottom: 0;
 }
 
-#intro .card .card-media {
+#intro .card .card-media > img {
   display: block;
 }
 

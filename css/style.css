@@ -442,6 +442,15 @@ section:nth-of-type(even) .card {
   text-align: center;
 }
 
+#footer .link-footer {
+  padding-top: 2rem;
+}
+
+#footer .link-footer a {
+  color: #9792e4;
+  text-decoration: underline;
+}
+
 /* ***************************
 ***     RESPONSIVE      ***
 *************************** 

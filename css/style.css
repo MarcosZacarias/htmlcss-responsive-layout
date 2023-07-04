@@ -348,6 +348,12 @@ section:nth-of-type(even) .card {
     width: 60%;
   }
 
+  /* Section Strategic */
+
+  #strategic .title-section {
+    font-size: 5rem;
+  }
+
   /* Section Reviews */
   #reviews .card .row {
     display: flex;

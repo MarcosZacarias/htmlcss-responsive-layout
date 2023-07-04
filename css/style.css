@@ -388,6 +388,9 @@ section:nth-of-type(even) .card {
 
   #reviews .card .row .col:last-child {
     flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: start;
   }
 

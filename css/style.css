@@ -358,23 +358,24 @@ section:nth-of-type(even) .card {
 
 #about-us .title-section {
   color: #9792e4;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 #about-us .text-section {
   line-height: 3rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
-#about-us .card:last-child {
+#about-us .card-media.circle {
   position: relative;
 }
 
 #about-us .card .icon-card {
   color: #9792e4;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -25px;
+  right: -10px;
+  font-size: 5rem;
 }
 
 #about-us .card .title-card {

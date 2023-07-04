@@ -430,12 +430,22 @@ section:nth-of-type(even) .card {
   /* section strategic */
   #strategic .row {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: end;
   }
 
   #strategic .row > .col {
-    width: 50%;
+    width: 40%;
+  }
+
+  #strategic .title-section {
+    font-size: 2rem;
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+  }
+
+  #strategic .card > .card-media {
+    width: 85%;
   }
 
   /* Section Benefits */

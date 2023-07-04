@@ -388,6 +388,14 @@ section:nth-of-type(even) .card {
   width: 250px;
 }
 
+#about-us .card .btn-about-us {
+  display: inline-block;
+  border-radius: 2rem;
+  background-color: #9792e4;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
 /* SECTION STARTED */
 
 #started {

@@ -341,6 +341,36 @@ section:nth-of-type(even) .card {
   padding: 1rem 0;
 }
 
+#about-us .card:first-child {
+  background-color: white;
+}
+
+#about-us .title-section {
+  color: #9792e4;
+  font-size: 5rem;
+}
+
+#about-us .text-section {
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+
+#about-us .card:last-child {
+  position: relative;
+}
+
+#about-us .card .icon-card {
+  color: #9792e4;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#about-us .card .title-card {
+  color: #9792e4;
+  font-size: 2rem;
+}
+
 /* SECTION STARTED */
 
 #started {

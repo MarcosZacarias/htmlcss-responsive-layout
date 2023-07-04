@@ -31,6 +31,12 @@ img {
   width: 100%;
 }
 
+section,
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 /* ***************************
    ***       DEBUG         ***
    *************************** 
@@ -65,15 +71,15 @@ img {
 .container {
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .row {
-  margin: 0 -1rem;
+  margin: 0 -2rem;
 }
 
 .col {
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 /* ***************************

@@ -385,7 +385,7 @@ section:nth-of-type(even) .card {
 
 #about-us .card .card-media.circle {
   margin: 0;
-  width: 70%;
+  width: 250px;
 }
 
 /* SECTION STARTED */
@@ -488,8 +488,20 @@ section:nth-of-type(even) .card {
     justify-content: center;
   }
 
-  #about-us .col {
-    width: calc(100% / 2);
+  #about-us .col:first-child {
+    width: calc(100% / 3 * 2);
+  }
+
+  #about-us .col:last-child {
+    width: calc(100% / 3);
+  }
+
+  #about-us .title-section {
+    font-size: 5rem;
+  }
+
+  #about-us .card .card-media.circle {
+    width: 100%;
   }
 }
 

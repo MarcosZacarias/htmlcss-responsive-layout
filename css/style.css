@@ -132,15 +132,16 @@ img {
 
 #intro .card {
   background-color: #b5ddff;
+  text-align: center;
 }
 
 #intro .col:first-child > .card {
   padding-bottom: 0;
+  text-align: start;
 }
 
 #intro .card .card-media > img {
   display: block;
-  padding-top: 2rem;
 }
 
 #intro .card > .row {
@@ -155,20 +156,27 @@ img {
   width: 80%;
   text-align: center;
   padding: 0.5rem 0;
+  margin: 2rem 0;
 }
 
 #intro .title-card {
-  color: #0084fd;
   font-size: 1.75rem;
-  padding-top: 0.5rem;
+
+  color: #0084fd;
+  padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
 #intro .text-card {
   font-weight: 600;
-  color: #5a6e7f;
   line-height: 2rem;
-  padding-bottom: 2rem;
+
+  color: #5a6e7f;
+}
+
+#intro .icon-card {
+  font-size: 6.5rem;
+  color: #0084fd;
 }
 
 /* SECTION STRATEGIC */

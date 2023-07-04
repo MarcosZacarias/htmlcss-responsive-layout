@@ -407,6 +407,29 @@ section:nth-of-type(even) .card {
   text-align: center;
 }
 
+#started .title-section {
+  font-size: 2rem;
+}
+
+#started .title-started {
+  font-size: 4rem;
+  color: #fdc15f;
+}
+
+#started .btn-started {
+  display: inline-block;
+  border-radius: 2rem;
+  background-color: white;
+  color: #9792e4;
+  padding: 1.5rem 6rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+#started .icon-started {
+  font-size: 1rem;
+}
+
 /* FOOTER */
 
 #footer {

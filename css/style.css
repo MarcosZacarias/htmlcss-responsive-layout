@@ -308,6 +308,31 @@ section:nth-of-type(even) .card {
 #benefits .card {
   text-align: start;
   margin: 2rem 0;
+  color: #9792e4;
+}
+
+#benefits .card .number-card {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#benefits .card .title-card {
+  font-weight: bold;
+}
+
+#benefits .card .text-card {
+  color: #929292;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#benefits .card .btn-benefits {
+  display: inline-block;
+  background-color: #9792e4;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 4rem;
+  border-radius: 2rem;
 }
 
 /* SECTION ABOUT-US */

@@ -26,6 +26,10 @@ body {
   font-family: "Akatab", sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
 /* ***************************
    ***       DEBUG         ***
    *************************** 
@@ -127,23 +131,25 @@ body {
 
 #intro .card {
   background-color: #b5ddff;
+  padding-bottom: 0;
+}
+
+#intro .card .card-media {
+  display: block;
 }
 
 #intro .card > .row {
   margin: 0;
 }
 
-#intro .card-section > * {
-  padding-bottom: 1rem;
-}
-
 #intro .btn-intro {
-  border-radius: 15px;
+  border-radius: 2rem;
   background-color: #0084fd;
   color: white;
   font-size: 1.4rem;
-  padding: 0.5rem 3rem;
   width: 60%;
+  text-align: center;
+  padding: 0.5rem 0;
 }
 
 /* SECTION STRATEGIC */

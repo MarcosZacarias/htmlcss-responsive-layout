@@ -52,7 +52,7 @@ img {
 
 .card {
   border-radius: 25px;
-  padding: 1rem;
+  padding: 2rem;
   height: 100%;
 }
 
@@ -132,11 +132,15 @@ img {
 
 #intro .card {
   background-color: #b5ddff;
+}
+
+#intro .col:first-child > .card {
   padding-bottom: 0;
 }
 
 #intro .card .card-media > img {
   display: block;
+  padding-top: 2rem;
 }
 
 #intro .card > .row {
@@ -148,9 +152,23 @@ img {
   background-color: #0084fd;
   color: white;
   font-size: 1.4rem;
-  width: 60%;
+  width: 80%;
   text-align: center;
   padding: 0.5rem 0;
+}
+
+#intro .title-card {
+  color: #0084fd;
+  font-size: 1.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#intro .text-card {
+  font-weight: 600;
+  color: #5a6e7f;
+  line-height: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* SECTION STRATEGIC */

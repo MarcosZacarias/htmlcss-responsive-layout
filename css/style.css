@@ -54,6 +54,7 @@ img {
   border-radius: 25px;
   padding: 2rem;
   height: 100%;
+  overflow: auto;
 }
 
 /* ***************************
@@ -274,6 +275,20 @@ img {
     width: calc(100% / 3 * 2);
   }
 
+  #intro .col:first-child > .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #intro .card-media {
+    width: calc(100% / 3 * 2);
+  }
+
+  #intro .btn-intro {
+    width: 60%;
+  }
+
   /* Section Reviews */
   #reviews .card .row {
     display: flex;
@@ -330,25 +345,21 @@ img {
   }
 
   /* Intro */
-  #intro .container > .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  #intro .col {
-    width: calc(100% / 3);
-  }
-
-  #intro .col:first-child {
-    width: calc(100% / 3 * 2);
-  }
-
   #intro .container .card > .row {
     display: flex;
   }
 
-  #intro .card .card-section {
+  #intro .col:first-child > .card {
+    flex-direction: row;
+  }
+
+  #intro .col:first-child > .card > * {
     width: 50%;
+  }
+
+  #intro .card-media {
+    display: flex;
+    align-items: flex-end;
   }
 
   /* section strategic */

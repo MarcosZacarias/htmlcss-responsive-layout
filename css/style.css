@@ -268,6 +268,14 @@ section:nth-of-type(even) .card {
   margin: 1rem 0;
 }
 
+#reviews .title-section {
+  color: #9792e4;
+}
+
+#reviews .text-section {
+  font-size: 1.2rem;
+}
+
 /* SECTION BENEFITS */
 
 #benefits {
